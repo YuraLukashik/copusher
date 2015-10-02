@@ -2,7 +2,6 @@ import sys
 import pyperclip
 import importlib
 
-
 class Copusher:
     def __init__(self):
         self.config = {
@@ -10,7 +9,7 @@ class Copusher:
         }
 
     def run(self):
-        storage_module = importlib.import_module("storages." + self.config['storage'])
+        storage_module = importlib.import_module("copusher.storages." + self.config['storage'])
         storage = storage_module.Storage()
 
         content = ""
