@@ -11,4 +11,5 @@ setup(
     download_url='https://github.com/YuraLukashik/copusher/tarball/0.1.1',  # I'll explain this in a second
     keywords=['command', 'output', 'push'],  # arbitrary keywords
     classifiers=[],
+    scripts=['bin/copusher']
 )
