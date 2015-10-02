@@ -1,3 +1,5 @@
+# /usr/bin/env python
+
 import sys
 import pyperclip
 import importlib
@@ -6,7 +8,7 @@ default_config = {
     'storage': 'github_gist'
 }
 
-storage_module = importlib.import_module("storages."+default_config['storage'])
+storage_module = importlib.import_module("storages." + default_config['storage'])
 storage = storage_module.Storage()
 
 content = ""
