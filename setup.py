@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='copusher',
     packages=['copusher'],  # this must be the same as the name above
-    version='0.1',
+    version='0.1.1',
     description='A robust Command Output PUSHER',
     author='Yura Lukashik',
     author_email='YuraLukashik@gmail.com',
