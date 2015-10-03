@@ -8,3 +8,10 @@ Installation notes
 ```bash
 $ sudo pip install copusher
 ```
+
+Usage
+=====
+
+```bash
+$ ls -la ~ | copusher
+```
