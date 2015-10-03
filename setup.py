@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='copusher',
-    packages=['copusher'],
+    packages=['copusher', 'copusher.storages'],
     version='0.1.7',
     description='A robust Comand Output PUSHER',
     author='Yura Lukashik',
@@ -11,5 +11,6 @@ setup(
     download_url='https://github.com/YuraLukashik/copusher/tarball/0.1.7',
     keywords=['command', 'output', 'push'],
     classifiers=[],
+    install_requires=['pyperclip',],
     scripts=['bin/copusher']
 )
