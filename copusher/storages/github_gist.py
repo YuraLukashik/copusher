@@ -4,12 +4,12 @@ import json
 
 class Storage:
     @staticmethod
-    def store(content):
+    def store(filename, content):
         body = {
             "description": "Got from stdin :)",
             "public": True,
             "files": {
-                "ShellOutput.txt": {
+                str(filename): {
                     "content": content
                 }
             }
